@@ -1,8 +1,10 @@
+* {
+	color: rgb(193, 189, 189);
+}
 body {
 	background-color: rgb(3, 43, 62);
 }
 h1 {
-	color: rgb(193, 189, 189);
 	font-size: 65px;
 	text-align: center;
 }
