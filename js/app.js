@@ -5,3 +5,6 @@ let name = prompt('What is your name my friend?');
 let age = prompt("How many years have you been on this earth?");
 let animal = prompt('What is your favorite animal?');
 let season = prompt("What is your favorite season!?");
+
+// 2. Combine the input with other words to create the story
+const message = `There once was a moronic Kaiju Street Sweeper named ${name}, who had flunked out of the Defense Force tryouts ${age}! And yet, ${name} would not give up! So with the help of there ${animal} companion, Rathsheeba, one ${season} morning, ${name} FINALLY was inducted into the Defense Force to fight the unabading Kaiju and their relentless assault!`;
