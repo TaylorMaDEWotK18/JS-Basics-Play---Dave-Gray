@@ -5,7 +5,7 @@
 const myNumber = 18;
 const myFloat = 17.18;
 const myString = "24sdfsdf";
-let message = prompt('How old are you?')
+let message = prompt('How old are you?');
 
 // Integer is a whole number, a number with a decimal is a 'float' which is referenced the "floating point"
 
@@ -16,6 +16,7 @@ console.log(myFloat);
 //We can change a 'string' to a 'number' by using the number function - Number.parseInt()
 
 console.log(Number.parseInt(message));
+console.log(typeof parseInt(message));
 
 // !! Zero is ALWAYS equal to false in Numbers!
 
