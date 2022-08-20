@@ -12,9 +12,9 @@ console.log(myNumber);
 
 console.log(myFloat);
 
-//We can change a 'string' to a 'number' by using the number function - Number()
+//We can change a 'string' to a 'number' by using the number function - Number.parseInt()
 
-console.log(Number(myString));
+console.log(Number.parseInt(myString));
 
 // !! Zero is ALWAYS equal to false in Numbers!
 
