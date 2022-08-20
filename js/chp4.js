@@ -5,7 +5,7 @@
 const myNumber = 18;
 const myFloat = 17.18;
 const myString = "24sdfsdf";
-let message = prompt('How old are you?');
+// let message = prompt('How old are you?');
 
 // Integer is a whole number, a number with a decimal is a 'float' which is referenced the "floating point"
 
@@ -15,8 +15,8 @@ console.log(myFloat);
 
 //We can change a 'string' to a 'number' by using the number function - Number.parseInt()
 
-console.log(Number.parseInt(message));
-console.log(typeof parseInt(message));
+// console.log(Number.parseInt(message));
+// console.log(typeof parseInt(message));
 
 // !! Zero is ALWAYS equal to false in Numbers!
 
@@ -52,3 +52,7 @@ console.log(typeof Number.parseInt(myString));
 //THIS IS VERY COMMON PRACTICE! Chaining = Using several methods chained together
 console.log(Number.parseFloat("42.2545avd").toFixed(3).toString());
 //This is just an example of chaining, 'toFixed' already returns a string so 'toString' is not necessary 
+
+console.log(parseInt("33.4 is great!"));
+console.log(parseFloat("33.4 is great!"));
+console.log(typeof parseFloat("33.4232 is great!").toFixed(2));
