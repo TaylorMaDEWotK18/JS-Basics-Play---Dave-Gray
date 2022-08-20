@@ -5,7 +5,9 @@
 const myNumber = 18;
 const myFloat = 17.18;
 const myString = "24sdfsdf";
-// let message = prompt('How old are you?');
+let message = prompt('How old are you?');
+let messagePlus = +message;
+console.log(typeof messagePlus);
 
 // Integer is a whole number, a number with a decimal is a 'float' which is referenced the "floating point"
 
@@ -56,3 +58,4 @@ console.log(Number.parseFloat("42.2545avd").toFixed(3).toString());
 console.log(parseInt("33.4 is great!"));
 console.log(parseFloat("33.4 is great!"));
 console.log(typeof parseFloat("33.4232 is great!").toFixed(2));
+
