@@ -12,3 +12,10 @@ console.log(Math.ceil(4.346));
 
 //floor---Will always round number DOWN
 console.log(Math.floor(35.7850));
+
+//---------POW!!!! Method--------------
+//The POW method takes 2 arguments, the base number and the exponent 
+//"TO THE POWER OF!"
+console.log(Math.pow(4, 4));
+console.log(Math.pow(3, 3));
+console.log(Math.pow(5, 10));
