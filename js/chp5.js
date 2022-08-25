@@ -31,5 +31,5 @@ console.log(Math.max(23, 324, 2343));
 
 //It provides a pseudo random number from 0 - 1
 console.log(Math.random() * 6);
-console.log(Math.random(Math.floor) * 18);
-console.log(Math.random(Math.ceil) * 1000);
+console.log(Math.floor(Math.random() * 18));
+console.log(Math.ceil(Math.random() * 1000));
